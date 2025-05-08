@@ -1,0 +1,80 @@
+Hi_Im_a_muffin = 1
+And_its_muffin_time = 2
+Who_wants_a_muffin = 3
+Please_I_just_wanna_die = 4
+Hey_somebody_kill_me = 5
+Please_its_muffin_time = 6
+Have_you_had_a_muffin_today = 7
+I_wanna_die_die_die = 8
+Please_I_wanna_die_die_die = 9
+Die_die_die = 10
+Its_muffin_time = 11
+Cause_I_wanna_die_die_die = 12
+Die_potato_die = 13
+I_baked_you_a_pie = 14
+Oh_boy_what_flavour = 15
+Pie_pie_pie = 16
+Dad_Im_hungry = 17
+Hi_Hungry_Im_dad = 18
+Why_did_you_name_me_this_way = 19
+Why_why_why = 20
+Im_gonna_do_an_internet = 21
+Well_Im_gonna_do_a_book = 22
+Youre_leavin_me = 23
+I_met_a_real_man = 24
+Hey_buddy_look_over_here = 25
+Ha_ha_ha_ha_ha = 26
+Now_youre_blind = 27
+Youre_gonna_die = 28
+Were_all_gonna_die = 29
+Ooh_a_butterfly = 30
+Die_die_die_pie_pie_pie = 31
+Hee_hee_hee_hee_hee_hee_hee = 32
+Got_your_nose = 33
+Look_out_hes_got_a_nose = 34
+Is_this_you = 35
+Hello_Hi = 36
+Here_comes_the_airplane = 37
+I_like_trains = 38
+Honey_Im_pregnant = 39
+I_can_explain = 40
+No_dont_jump = 41
+Okay_jump_now = 42
+I_have_no_idea_how_to_breathe = 43
+Meow_meow_meow_Im_a_cow = 44
+Hey_you_got_a_license_for_that = 45
+Youll_never_take_me_alive = 46
+Ha_ha_They_said_I_could_never_teach_a_llama_to_drive = 47
+No_llama_no = 48
+Even_though_letting_go_feels_right = 49
+I_cant_afford_to_say_goodbye = 50
+You_and_I_are_bound_together = 51
+Especially_since_cartoons_live_forever = 52
+
+def muffin_adventure():
+    total_muffin_energy = Hi_Im_a_muffin + And_its_muffin_time + Who_wants_a_muffin
+    muffin_multiplier = Pie_pie_pie / 4  
+    muffin_score = total_muffin_energy * muffin_multiplier
+    
+    print(f"Total Muffin Energy: {total_muffin_energy}")
+    print(f"Muffin Multiplier: {muffin_multiplier}")
+    print(f"Final Muffin Score: {muffin_score}")
+    
+    if muffin_score > 10:
+        print("Muffin overload! Time to share.")
+    else:
+        print("Not enough muffins, bake more!")
+    
+    train_risk = I_like_trains * 2
+    print(f"Train Risk Level: {train_risk}")
+    if train_risk > 70:
+        print("Train incoming! Watch out!")
+    
+    existential_dread = Youre_gonna_die + Were_all_gonna_die
+    print(f"Existential Dread Level: {existential_dread}")
+    if existential_dread > 50:
+        print("Existential crisis triggered.")
+    else:
+        print("All good, keep going!")
+
+muffin_adventure()
