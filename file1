@@ -1,2 +1,2 @@
 print("This is an example.")
-Print("Nueva línea")
+print("Nueva línea")
